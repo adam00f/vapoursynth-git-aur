@@ -16,7 +16,7 @@ pkgbase = vapoursynth-git
 	makedepends = python-wheel
 	depends = python
 	depends = zimg
-	provides = vapoursynth=77
+	provides = vapoursynth=${pkgver%%.*}
 	provides = libvapoursynth.so
 	provides = libvsscript.so
 	conflicts = vapoursynth

@@ -24,7 +24,7 @@ makedepends=(
   'python-wheel'
 )
 provides=(
-  'vapoursynth=77'
+  'vapoursynth=${pkgver%%.*}'
   'libvapoursynth.so'
   'libvsscript.so'
 )
